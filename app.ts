@@ -1,25 +1,20 @@
 
 (function(){
 
+const miFuncion = function( a: string) {
+    return a;
+}
 
-        function activar(   quien : string,
-                            momento? : string,
-                            objeto : string = 'batiseñal' ){
-                                
-                if (momento) {
-                    console.log(`${ quien} activo la ${objeto} en la ${ momento }`)
-                } else {
-                    console.log(`${ quien} activo la ${objeto}`)
-        }
-                }
+const miFuncionf ( a: string ) => a.toUpperCase();
 
+const sumarN =function (a:number, b:number) {
+    return a+b;
+}
 
-            
+const sumarF = (a:number, b:number) => a+b;
 
-
-
-        activar('Gordon' , 'tarde');
-
+console.log (sumarN (5,5));
+console.log (sumarN(10,10));
 
 })();
 

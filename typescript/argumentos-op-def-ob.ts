@@ -1,7 +1,4 @@
-
 (function(){
-
-
         function activar(   quien : string,
                             momento? : string,
                             objeto : string = 'batiseñal' ){
@@ -11,15 +8,8 @@
                 } else {
                     console.log(`${ quien} activo la ${objeto}`);
         }
-                }
-
-
-            
-
-
-
+                }     
         activar('Gordon' , 'tarde');
- 
 
 })();
 
